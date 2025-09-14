@@ -7,12 +7,12 @@
     <parent>
         <artifactId>plugins</artifactId>
         <groupId>org.igniterealtime.openfire</groupId>
-        <version>5.0.0</version>
+        <version>5.0.1-jakarta-04072025</version>
     </parent>
     
     <groupId>org.igniterealtime.openfire</groupId>
     <artifactId>llama</artifactId>
-    <version>0.4.0-SNAPSHOT</version>
+    <version>0.4.0-jakarta-14092025</version>
     
     <properties>      
     </properties>    
@@ -66,8 +66,8 @@
                 <artifactId>maven-assembly-plugin</artifactId>
             </plugin>
 			<plugin>
-				<groupId>org.eclipse.jetty.ee8</groupId>
-				<artifactId>jetty-ee8-jspc-maven-plugin</artifactId>
+				<groupId>org.eclipse.jetty.ee9</groupId>
+				<artifactId>jetty-ee9-jspc-maven-plugin</artifactId>
 			</plugin>			           
         </plugins>
     </build>

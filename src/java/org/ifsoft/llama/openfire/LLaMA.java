@@ -45,14 +45,14 @@ import org.jivesoftware.util.PropertyEventDispatcher;
 import org.jivesoftware.util.PropertyEventListener;
 import org.jivesoftware.util.StringUtils;
 
-import org.eclipse.jetty.ee8.servlet.*;
-import org.eclipse.jetty.ee8.websocket.servlet.*;
-import org.eclipse.jetty.ee8.websocket.server.*;
-import org.eclipse.jetty.ee8.webapp.WebAppContext;
+import org.eclipse.jetty.ee9.servlet.*;
+import org.eclipse.jetty.ee9.websocket.servlet.*;
+import org.eclipse.jetty.ee9.websocket.server.*;
+import org.eclipse.jetty.ee9.webapp.WebAppContext;
 
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 import org.eclipse.jetty.util.security.*;
 import org.eclipse.jetty.security.*;
